@@ -1,3 +1,6 @@
+include_recipe "libuuid"
+include_recipe "libice"
+
 packages = %w/
   libsm6
 /
